@@ -2,7 +2,7 @@
 
 Hey, thanks for taking the time to contribute! You're awesome! 🎉
 
-The goal of [opsecswag.com](https://bitcoin-resources.com)
+The goal of [opsecswag.com](https://opsecswag.com)
 is to list apparel that is fun and stylish, but that is
 not in-your-face Bitcoin swag.
 
@@ -19,4 +19,4 @@ not in-your-face Bitcoin swag.
 4. Add the image file you specified in the `.md` file to the `/assets/images` folder
 3. [Create a pull-request](https://github.com/opsecswag/opsecswag.github.io/pulls)
 
-Refer to the [README.md](https://github.com/bitcoin-resources/bitcoin-resources.github.io/blob/master/README.md) if you have troubles with getting up and running.
+Refer to the [README.md](https://github.com/opsecswag/opsecswag.github.io/blob/master/README.md) if you have troubles with getting up and running.
