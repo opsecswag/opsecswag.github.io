@@ -1,5 +1,6 @@
 ---
 layout: page
 title: Contribute
-redirect_to: support
 ---
+
+Create a PR on GitHub.
