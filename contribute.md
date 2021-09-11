@@ -10,7 +10,9 @@ know.
 
 Rough rules:
 * Doesn't say "Bitcoin"
-* No Bitcoin logo
+* No Bitcoin logo*
+
+(* unless it's really small or something)
 
 ### How to contribute
 
