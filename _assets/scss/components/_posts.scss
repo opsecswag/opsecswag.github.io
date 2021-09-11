@@ -54,31 +54,19 @@
   }
 
   &__post {
-    padding: 2em 1em;
+    margin: 2em 1em;
+    padding: 0.5em;
 
-    // @media (min-width: $mq-small) {
-    //   padding: {
-    //     top: 4em;
-    //     bottom: 4em;
-    //   }
-    // }
+    background-color: $color-lightgrey;
   }
 
   &__link {
     display: block;
 
-    color: $color-white;
-
-    &:hover {
-      .posts__img {
-        transform: translate3d(0, -10px, 0);
-      }
-    }
+    color: $color-black;
   }
 
   &__img {
-    margin-bottom: 1em;
-
     background-color: $color-lightgrey;
     transition: transform 400ms ease-in-out;
 
