@@ -9,7 +9,7 @@ not in-your-face Bitcoin swag.
 ### Before you start
 
 * Make yourself familiar with the structure of the site
-* Have a look at existing items in `/collections/_items/``
+* Have a look at existing items in `/collections/_items/`
 
 ### Implementing a change
 

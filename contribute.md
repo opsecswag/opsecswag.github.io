@@ -15,4 +15,4 @@ Rough rules:
 ### How to contribute
 
 Create a [PR on GitHub](https://github.com/opsecswag/opsecswag.github.io).
-Details [here](https://github.com/opsecswag/opsecswag.github.io/CONTRIBUTING.md).
+Details [here](https://github.com/opsecswag/opsecswag.github.io/blob/master/CONTRIBUTING.md).
