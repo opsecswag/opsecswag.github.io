@@ -81,6 +81,11 @@
     font-weight: 400;
   }
 
+  &__price {
+    padding-left: 0.21em;
+    color: $color-green;
+  }
+
   &__pagination {
     @extend %text-center;
 
