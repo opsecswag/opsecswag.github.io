@@ -26,6 +26,8 @@ collections_dir: collections
 collections:
   items:
     title: Items
+  shops:
+    title: Shops
 
 # Author settings
 author:
