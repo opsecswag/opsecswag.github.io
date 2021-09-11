@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<!-- The main content area -->
+
+<div class="posts">
+  <div class="grid-xlarge">
+    <div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns>
+      {% for item in site.items %}
+        {% include item-card.html %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

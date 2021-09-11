@@ -1,0 +1,23 @@
+{% assign webp = item.image | replace: '.jpg', '.webp' | replace: '.png', '.webp' %}
+<article class="posts__post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+  <a class="posts__link" href="{{ item.link }}" target="_blank" itemprop="url">
+    {% if item.image %}
+      <figure class="posts__img">
+        <source srcset="{{ webp | absolute_url }}" type="image/webp">
+        <source srcset="{{ item.image | absolute_url }}" type="image/jpeg">
+        <img src="{{ item.image }}" alt="{{ item.title }}" data-aos="fade-in" itemprop="image">
+      </figure>
+    {% endif %}
+    <div>
+      <h2 class="posts__text">
+        <strong itemprop="name">
+          {{ item.name }}
+          {% if item.category %}
+            - {{ item.category }}
+          {% endif %}
+        </strong>
+        {{ item.price }}
+      </h2>
+    </div>
+  </a>
+</article>
