@@ -12,9 +12,7 @@
       <h2 class="posts__text">
         <strong itemprop="name">
           {{ item.name }}
-          {% if item.category %}
-            - {{ item.category }}
-          {% endif %}
+          {% if item.category %}{{ item.category }}{% endif %}
         </strong>
         {{ item.price }}
       </h2>

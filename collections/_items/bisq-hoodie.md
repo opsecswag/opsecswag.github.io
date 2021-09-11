@@ -1,5 +1,5 @@
 ---
-name: Bisq Hoodie
+name: Bisq
 image: /assets/images/bisq-hoodie.jpg
 category: Hoodie
 link: https://orangecoin.shop/product/bisq-hoodie/
