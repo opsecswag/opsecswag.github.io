@@ -86,6 +86,10 @@
     color: $color-orange;
   }
 
+  &__lnpbp {
+    float: right;
+  }
+
   &__pagination {
     @extend %text-center;
 
