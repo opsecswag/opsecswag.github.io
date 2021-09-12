@@ -1,4 +1,7 @@
 {% assign webp = item.image | replace: '.jpg', '.webp' | replace: '.png', '.webp' %}
+{% assign itemShops = site.shops | where_exp:"shop","item.link contains shop.link" %}
+{% assign itemShop = itemShops.first %}
+
 <article class="posts__post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   <a class="posts__link" href="{{ item.link }}" target="_blank" itemprop="url">
     {% if item.image %}
@@ -18,8 +21,8 @@
         {{ item.price }}
         </span>
         <span class="posts__lnpbp" title="Bitcoin accepted here">
-          {% if item.lightning %}⚡{% endif %}
-          {% if item.bitcoin %}<img src="/assets/images/btc.png" width="19px"/>{% endif %}
+          {% if itemShop.lightning %}⚡{% endif %}
+          {% if itemShop.bitcoin %}<img src="/assets/images/btc.png" width="19px"/>{% endif %}
         </span>
       </h2>
     </div>
