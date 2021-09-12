@@ -1,5 +1,5 @@
 ---
 name: Satoshi Corner
-link: https://pollofeed.com/#/swag
+link: https://satoshicorner.com/
 bitcoin: true
 ---
