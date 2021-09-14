@@ -1,0 +1,42 @@
+{% assign filterCategoryPlural = page.url | remove:'/' | capitalize %}
+{% assign singularWordLength = filterCategoryPlural | size | minus: 1 %}
+{% assign filterCategory = filterCategoryPlural | slice: 0, singularWordLength %}
+
+{% if page.url == "/" %}
+  {% assign doFilter = false %}
+{% else %}
+  {% assign doFilter = true %}
+{% endif %}
+
+<div class="posts">
+  <center>
+    <img src="/assets/images/opsec-swag.png" width="50%"/>
+    <p>
+      Show:
+      <a href="{{ '/' | absolute_url }}">All</a>,
+      <a href="{{ '/shirts' | absolute_url }}">Shirts</a>,
+      <a href="{{ '/hats' | absolute_url }}">Hats</a>,
+      <a href="{{ '/hoodies' | absolute_url }}">Hoodies</a>,
+      <a href="{{ '/mugs' | absolute_url }}">Mugs</a>
+    </p>
+  </center>
+  <div class="grid-xlarge">
+    <div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns>
+      {% for item in site.items %}
+        {% if doFilter %}
+          {% if item.category == filterCategory %}
+            {% include item-card.html %}
+          {% endif %}
+        {% else %}
+          {% include item-card.html %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  <center>
+    <small>Prices may not be accurate. If something is off, please
+      <a href="https://github.com/opsecswag/opsecswag.github.io">create a PR</a>
+      to fix it.
+    </small>
+  </center>
+</div>
