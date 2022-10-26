@@ -11,6 +11,12 @@ not in-your-face Bitcoin swag.
 * Make yourself familiar with the structure of the site
 * Have a look at existing items in `/collections/_items/`
 
+### Suggesting a change
+
+1. [Create an issue](https://github.com/opsecswag/opsecswag.github.io/issues/new/choose)
+
+That's it. There is no step 2.
+
 ### Implementing a change
 
 1. Clone the repository
