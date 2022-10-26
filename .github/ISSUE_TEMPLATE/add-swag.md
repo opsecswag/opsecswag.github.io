@@ -7,9 +7,7 @@ assignees: dergigi
 
 ---
 
-
-
-Existing categories: Hat / Hoodie / Shirt / Mug
+Modify the example below with your item's name, image, category, link, and price.
 
 ```
 ---
@@ -21,7 +19,11 @@ price: $21.21
 ---
 ```
 
-Reminder, from README:
+Existing categories are `Hat`, `Hoodie`, `Shirt`, and `Mug`.
+
+---
+
+REMINDER, from [README](https://github.com/opsecswag/opsecswag.github.io/blob/master/README.md) - FEEL FREE TO DELETE THE BELOW
 
 > The goal of OpsecSwag is to list apparel that is fun and stylish, but that is
 not in-your-face Bitcoin swag. In other words: it should not be immediately
