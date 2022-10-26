@@ -23,7 +23,7 @@ Existing categories are `Hat`, `Hoodie`, `Shirt`, and `Mug`.
 
 ---
 
-REMINDER, from [README](https://github.com/opsecswag/opsecswag.github.io/blob/master/README.md) - FEEL FREE TO DELETE THE BELOW
+Reminder, from [README](https://github.com/opsecswag/opsecswag.github.io/blob/master/README.md):
 
 > The goal of OpsecSwag is to list apparel that is fun and stylish, but that is
 not in-your-face Bitcoin swag. In other words: it should not be immediately
