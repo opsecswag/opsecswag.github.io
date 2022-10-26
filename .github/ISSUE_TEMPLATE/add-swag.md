@@ -11,6 +11,7 @@ assignees: dergigi
 
 Existing categories: Hat / Hoodie / Shirt / Mug
 
+```
 ---
 name: Product Name
 image: https://link.to/product-image/you-want-to-show.jpg
@@ -18,6 +19,7 @@ category: Hat
 link: https://swag.shop/product/xy
 price: $21.21
 ---
+```
 
 Reminder, from README:
 
