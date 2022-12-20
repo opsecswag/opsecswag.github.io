@@ -1,0 +1,6 @@
+---
+name: Niko Collection
+link: https://satoshistore.io/collections/niko-collection
+bitcoin: true
+lightning: true
+---
