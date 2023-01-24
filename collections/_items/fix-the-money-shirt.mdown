@@ -1,0 +1,7 @@
+---
+name: Fix the Money
+image: /assets/images/fix-the-money-shirt.jpg
+category: Shirt
+link: https://satoshistore.io/products/fix-the-money-mens-organic-cotton-t-shirt-1
+price: €29.00
+---
